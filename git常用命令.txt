@@ -1,0 +1,5 @@
+检出远端服务器上的仓库:git clone username@host:name/repository
+添加改动到缓存区中:git add <filename>
+提交实际改动:git commit -m "代码提交信息"
+提交到远程仓库:git push origin master
+果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：git remote add origin <server>
