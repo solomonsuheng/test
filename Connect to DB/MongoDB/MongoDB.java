@@ -7,9 +7,10 @@ import com.mongodb.Mongo;
 
 /**
  * @ClassName: MongoDB
- * @Description: 测试连接MongoDB数据库的news user
+ * @Description: Test connecte to mongoDB and get info from mongoDB DB:news
+ *               Collections:user
  * @author solomonsuheng
- * @date 2014-5-18 上午11:06:13
+ * @date 2014-5-18 11:06:13am
  */
 public class MongoDB {
 	public static void main(String[] args) {
