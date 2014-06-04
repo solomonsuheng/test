@@ -1,0 +1,28 @@
+﻿<html>
+	<head>
+		<script type="text/javascript" src="jquery.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("div#img").click(function(){
+					
+					alert($("#uname").val());
+				});
+				$("div#img2").click(function(){
+					
+					alert($("#upwd").attr("value","text"));
+				});
+			});
+
+		</script>
+	</head>
+
+	<body>
+		<div style=	"width:30px;height:30px;background-color:black" id="img">
+		</div>
+		<input type="text" name="username" id="uname"/>
+		<input type="password" name="username" id="upwd"/>
+		<div style=	"width:30px;height:30px;background-color:black" id="img2">
+		</div>
+	</body>
+</html>

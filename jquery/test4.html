@@ -1,0 +1,26 @@
+﻿<html>
+	<head>
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("p").mouseover(function(){
+					$(this).hide();
+					$("#showImg").css("background-color","red");
+					$("#showImg").css("width","500px");
+					$("#showImg").css("height","500px");
+				});
+				
+				
+			});
+		</script>
+	</head>
+
+	
+	<body>
+		<p>
+			mouseover show pic
+		</p>
+		
+		<div id="showImg"></div>
+	</body>
+</html>

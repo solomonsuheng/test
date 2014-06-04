@@ -1,0 +1,24 @@
+﻿<html>
+	<head>
+		<script type="text/javascript" src="jquery.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("div#img").click(function(){
+					
+					$("#aa").animate({left:'250px'},"slow").animate({fontSize:'3em'},"slow").animate({width:'525px'},3000);
+				});
+			});
+
+		</script>
+	</head>
+
+	<body>
+		<div style=	"width:30px;height:30px;background-color:black" id="img">
+		</div>
+		<p id="img1" style=	"width:50px;height:50px;background-color:red">
+		</p>
+		<div id="aa" style="background:#98bf21;height:100px;width:200px;position:absolute;">HELLO</div>
+		
+	</body>
+</html>
